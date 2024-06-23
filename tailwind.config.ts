@@ -8,10 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        "custom-blue-bg": "rgba(0,146,228,.05)",
+        "custom-blue-1": "rgba(0,146,228,.6)",
+        "custom-blue-2": "rgba(0,146,228,.7)",
+        "custom-blue-3": "rgba(0,146,228,.8)",
+        "custom-pink-bg": "rgba(228,0,125,.05)",
+        "custom-pink-1": "rgba(228,0,125,.6)",
+        "custom-pink-2": "rgba(228,0,125,.7)",
+        "custom-pink-3": "rgba(228,0,125,.8)",
+        "custom-light": "#f9f9f9",
+        "custom-dark": "#989898",
       },
     },
   },
