@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        login:
+          "linear-gradient(147.95deg, rgba(0, 146, 228, 0.24) 0.24%, rgba(84, 115, 133, 0.28) 49.72%, rgba(0, 146, 228, 0.32) 99.08%), url('/login.jpg')",
+      },
       colors: {
         "custom-blue-bg": "rgba(0,146,228,.05)",
         "custom-blue-1": "rgba(0,146,228,.6)",
